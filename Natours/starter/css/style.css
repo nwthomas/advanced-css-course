@@ -47,6 +47,13 @@ body {
   width: auto;
 }
 
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
@@ -54,8 +61,13 @@ body {
 
 .heading-primary-main {
   display: block;
+  font-size: 60px;
+  letter-spacing: 35px;
 }
 
 .heading-primary-sub {
   display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 17.4px;
 }
